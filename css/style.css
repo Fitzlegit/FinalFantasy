@@ -1,0 +1,117 @@
+/* Styles for Final Fantasy Unlimited */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topHeader {
+    background-color: #0099e6;
+    background: url(A:/fullstack/CSS-Section/FinalFantasy/img/TopHeaderBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+body {
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body p{
+    color: #000;
+}
+
+h1 {
+    font-size: 75px;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+
+h2 {
+    font-size: 30px;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+
+#gold {
+    color: #ffcc00;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+}
+
+.navMenu {
+   list-style: none;
+   padding: 25px;
+   text-transform: uppercase; 
+   margin-top: 15px;
+   font-size: 20px;
+   font-family: 'Oswald', sans-serif;
+   color: #ffffff;
+}
+
+.navMenu li {
+    display: inline-block;
+}
+
+.navMenu a {
+    text-decoration: solid;
+    padding: 5px;
+    color: #ffffff;
+    
+}
+
+.navMenu a:hover {
+    color: #ffcc00;
+}
+
+.mainSection {
+    padding: 50px
+} 
+
+#blurb {
+    width: 50%;
+    margin: auto;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #000;
+}
+
+footer p{
+    color: #fff;
+}
+
+form {
+    display: inline-block
+}
+
+.galleryContainer {
+    display: auto;
+}
+
+.imgBox {
+    background-color: #000;
+    width: 500px;
+    height: 500px;
+    border: 15px solid #fff;
+    margin: 25;
+    padding: 8px;
+}
